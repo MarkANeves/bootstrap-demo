@@ -1,6 +1,6 @@
 variable "instance_name" {
   description = "AWS Instance Name"
-  default     = "Windows1"
+  default     = "WindowsMarkn1"
 }
 
 variable "key_name" {
@@ -10,18 +10,18 @@ variable "key_name" {
 
 variable "aws_region" {
   description = "AWS region to launch servers."
-  default     = "eu-west-2"
+  default     = "eu-west-1"
 }
 
 variable "subnet_id" {
   description = "AWS Subnet launch servers."
-  default     = "subnet-5f845324"
+  default     = "subnet-02f15c59"
 }
 
 
 variable "ami_id" {
   description = "AWS AMI Image Id"
-  default     = "ami-9c6b8dfb"
+  default     = "ami-2316475a"
 }
 
 variable "instance_type" {
@@ -31,10 +31,10 @@ variable "instance_type" {
 
 variable "Parameter1" {
   description = "First Input"
-  default = "Folder1"
+  default = "Folder1Markn"
 }
 
 variable "Parameter2" {
   description = "Second Input"
-  default = "File2"
+  default = "File2Markn"
 }
